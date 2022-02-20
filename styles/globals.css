@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: local('BebasNeueBold'), url(../public/fonts/BebasNeue_Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeueBook';
+  src: local('BebasNeueBook'), url(../public/fonts/BebasNeue_Book.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeueLight';
+  src: local('BebasNeueLight'), url(../public/fonts/BebasNeue_Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: local('BebasNeue'), url(../public/fonts/BebasNeue_Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeueThin';
+  src: local('BebasNeueThin'), url(../public/fonts/BebasNeue_Thin.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ================= FONT SETTING ================= */
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0; padding: 0;
+}
+
+h1{
+  font-family: 'BebasNeue';
+  font-size: 3em;
+}
+
+h2{
+  font-family: 'BebasNeue';
+  font-size: 2.5em;
+}
+
+
+h3{
+  font-family: 'BebasNeueBold';
+  font-size: 2em;
+}
+
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+h5{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+p, a, button{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.link{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 0.875em;
+}
+
+button {
+  background-color: rgba(255,255,255,0);
+}
+
+.labelColor {
+  color: #999;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: #fff;
+}
+
+.sc-jWUzzU.boGTDw, .sc-jJoQJp.dwiMME, .drZnpV, .eKdbza, .sc-lbhJGD.iilvov, .sc-fyrocj.jlrWjf {
+  background-color: transparent;
+  background-color: rgba(0,0,0,0);
+}
+
+.MuiSwitch-track.css-1yjjitx-MuiSwitch-track{
+  background-color: #B08584;
+}
+
+ul {
+  margin: 0; padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+
